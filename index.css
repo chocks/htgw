@@ -1,0 +1,47 @@
+/*
+ * Author      : Chocks
+ * Date        : September, 6th 2015
+ * Version     : 1
+ * Description : This is the main Stylesheet for the site
+ */
+
+
+html, body {
+        height: 100%;
+
+}
+
+body {
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  margin: 0 auto;
+  clear:both;
+  padding-top:20px;
+}
+
+img.displayed {
+    top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.display {
+    width: 60%;
+    margin: 0;  /* <- works for me this way ****/
+}
